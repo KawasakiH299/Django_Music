@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐系统注册页</title>
+    <link rel="stylesheet" href={% static '/css/office/register.css' %}>
+
+
+
+</head>
+
+<body>
+    <div class="registerCard">
+        
+        <div class="logo">
+            <img src={% static '/assets/images/office/logo.png' %} alt="" srcset="">
+        </div>
+        <form  method="post" >
+            {% csrf_token %}
+            <h2 style="text-align: center;">注册页</h2>
+            <label for="">昵称：</label>
+<!--            <input type="text" name="username" id="" >-->
+            {{ form.name}}
+            <br>
+            <br>
+            <label for="">密码：</label>
+<!--            <input type="password" name="password" id="" placeholder="请输入您的密码">-->
+            {{ form.password }}
+            <br>
+            <br>
+            <button type="submit" style="width: 100px ; margin: 0 auto;">注册</button>
+            <a href={% url 'login' %}>有账号我选择登录</a>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
