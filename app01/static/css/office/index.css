@@ -1,0 +1,35 @@
+﻿/* .carousel-img{
+    height: 420px;
+    width: 100%;
+    background-image: url("../../assets/images/office/wallhaven1.png");
+    background-size: cover;}
+    /* cover平铺 */
+.card-item{
+    width: 15.6rem !important;
+    /* 根节点（html）的fontsize决定了rem的尺寸 */
+    margin: 8px auto ;
+    /* 上右下左 */
+
+}
+/* @media screen and(max-width:500px) {
+    .card-item{
+        width: unset !important;
+        /* 根节点（html）的fontsize决定了rem的尺寸 */
+        /* margin: 8px auto ;} */
+        /* 上右下左 */
+
+    
+*/
+
+
+
+
+
+/* .card-item{
+   
+} */
+.img-logo{
+    
+    width: 40px;
+    height: 40px;
+}

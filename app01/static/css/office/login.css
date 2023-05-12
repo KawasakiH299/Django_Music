@@ -1,0 +1,50 @@
+﻿body{
+    /* height: 100vh; */
+    /* 100vh 表示的是整个视图的高度*/
+    background-image:url(../../assets/images/office/loginBG.jpg) ;
+    background-size: 100% 100vh;    /* 针对背景拼接的问题，让它平铺 */
+    background-repeat: no-repeat;
+    /* 针对下半部分重复的问题 */
+}
+
+
+
+
+/* 类名打点   id打上#号 */
+.loginCard{
+    width: fit-content;                   /* fit-content 自适应 */
+    padding: 20px 40px ;            /*上下   左右*/
+    /* padding:2px 2px 12px 12px ;            */   /* 上右下左分别对应2，2，12，12 */
+    margin: 200px auto;
+    /* border:1px solid red ;   */             /*  border 边框（边框不要了,不太好看）  */
+    border-radius: 7px;            /* 圆角 */
+    background-color: rgb(255, 255, 255,0.8);
+
+    box-shadow: 2px 2px 10px 1px #b2b2b2;
+
+}
+
+.loginCard .logo{              /* 你忘记打了一个空格在logincard之后，效果就出不来 */
+    width: 85px;
+    height: 85px;
+    /* border: 1px solid #f0c; */
+    border-radius :50%;           /* border-radius表示边框半径 */
+    background-color: #fff;
+    box-shadow: 2px 2px 10px 1px #b2b2b2;     /* box-shadow阴影 */
+    margin: 0 auto;
+    transform: translateY(-60px);
+    /* Y轴竖轴反向进行转换，往竖轴方向移       往上跳加负号 */
+}
+
+
+
+.loginCard .logo img{         /* 这个也一样没有空格在logincard之后，效果就出不来 */
+    width: 100%;
+    
+  
+}
+
+
+
+
+
